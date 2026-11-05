@@ -26,3 +26,6 @@ testpaths = ["tests"]
 
 [tool.ruff]
 line-length = 115
+
+[tool.ruff.lint]
+select = ["E", "F"]
