@@ -56,7 +56,7 @@ class VectorIndex:
                 fh.write(json.dumps(asdict(c)) + "\n")
 
     @classmethod
-    def load(cls, folder: str | Path) -> "VectorIndex":
+    def load(cls, folder: str | Path) -> VectorIndex:
         folder = Path(folder)
         vectors = np.load(folder / "vectors.npy")
         idx = cls(vectors.shape[1])
