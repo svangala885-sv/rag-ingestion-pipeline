@@ -1,0 +1,12 @@
+{"question": "How long do we keep raw landing data before deletion?", "expected_doc": "data-retention-policy"}
+{"question": "What happens to automated deletion during a legal hold?", "expected_doc": "data-retention-policy"}
+{"question": "Who must approve access to a confidential table?", "expected_doc": "access-request-process"}
+{"question": "How often are active access grants reviewed?", "expected_doc": "access-request-process"}
+{"question": "What counts as a Sev1 data incident?", "expected_doc": "incident-response-runbook"}
+{"question": "How quickly must on-call pause downstream jobs in a Sev1?", "expected_doc": "incident-response-runbook"}
+{"question": "What is stored in the Silver layer?", "expected_doc": "pipeline-standards"}
+{"question": "When is a full reload of a pipeline allowed?", "expected_doc": "pipeline-standards"}
+{"question": "When do interactive clusters shut down?", "expected_doc": "cloud-cost-guidelines"}
+{"question": "How do we avoid small files in large tables?", "expected_doc": "cloud-cost-guidelines"}
+{"question": "Can I paste customer data into a public chatbot?", "expected_doc": "genai-usage-policy"}
+{"question": "Do model outputs in regulatory filings need human approval?", "expected_doc": "genai-usage-policy"}
