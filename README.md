@@ -1,5 +1,7 @@
 # rag-ingestion-pipeline
 
+[![ci](https://github.com/svangala885-sv/rag-ingestion-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/svangala885-sv/rag-ingestion-pipeline/actions/workflows/ci.yml) ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg) ![Data: synthetic](https://img.shields.io/badge/data-synthetic-lightgrey.svg)
+
 The data engineering side of Retrieval-Augmented Generation: load documents, **redact PII before anything is embedded**, split them into heading-aware chunks, embed, index, retrieve, and **measure retrieval quality in CI** so a change to chunking or embeddings cannot silently make answers worse.
 
 > **Portfolio note.** An independently written, representative project. The six documents in `data/docs` describe an invented company and were written for this repo. No employer or client code, documents or data are used.
